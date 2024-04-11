@@ -53,12 +53,13 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
         <Key value="ه" onClick={onClick} status={charStatuses["ه"]} />
         <Key value="ع" onClick={onClick} status={charStatuses["ع"]} />
         <Key value="غ" onClick={onClick} status={charStatuses["غ"]} />
+        <Key value="ڠ" onClick={onClick} status={charStatuses["ڠ"]} />
         <Key value="ف" onClick={onClick} status={charStatuses["ف"]} />
         <Key value="ق" onClick={onClick} status={charStatuses["ق"]} />
         <Key value="ث" onClick={onClick} status={charStatuses["ث"]} />
         <Key value="ص" onClick={onClick} status={charStatuses["ص"]} />
         <Key value="ض" onClick={onClick} status={charStatuses["ض"]} />
-         <Key value="ڠ" onClick={onClick} status={charStatuses["ڠ"]} />
+        
       </div>
       <div className="flex justify-center mb-1">
         <Key value="گ" onClick={onClick} status={charStatuses["گ"]} />
