@@ -22,7 +22,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ل" />
       </div>
       <p className="text-sm text-gray-500" >
-       .betul yang posisi di dan perkataan dalam  di  'س' Huruf
+       Huruf 'س' di dalam perkataan dan di posisi yang betul.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
