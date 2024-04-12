@@ -21,7 +21,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="و" />
         <Cell value="ل" />
       </div>
-      <p className="text-sm text-gray-500">
+      <p className="text-sm text-gray-500" dir="l-t-r">
         Huruf 'س' di dalam perkataan dan di posisi yang betul.
       </p>
 
