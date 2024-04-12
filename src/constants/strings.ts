@@ -1,1 +1,1 @@
-export const WIN_MESSAGES = ['Tahniah!', 'Terbaik', 'Betul!']
+export const WIN_MESSAGES = ['Tahniah', 'Terbaik', 'Betul']
