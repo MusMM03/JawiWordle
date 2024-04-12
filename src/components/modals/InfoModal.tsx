@@ -11,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="Cara untuk bermain" isOpen={isOpen} handleClose={handleClose}>
      
       <p className="text-sm text-gray-500">
-        Meneka WORDLE dalam 5 percubaan. Selepas setiap tekaan, warna jubin akan berubah untuk menunjukkan seberapa dekat tekaan anda dengan perkataan.
+        Meneka WORDLE dalam 5 percubaan. Selepas setiap tekaan, warna jubin akan berubah untuk menunjukkan ketepatan tekaan anda dengan perkataan.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
