@@ -11,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="Cara untuk bermain" isOpen={isOpen} handleClose={handleClose}>
      
       <p className="text-sm text-gray-500">
-        Meneka WORDLE dalam 5 percubaan. Selepas setiap tekaan, warna jubin akan berubah untuk menunjukkan ketepatan tekaan anda dengan perkataan.
+        منك ڤركاتان دالم 6 ڤرچوبأن. سلڤس ستياڤ تكاان، ورنا جوبين اكن بروبه اونتوق منونجوقكن كتڤتن تكاان اندا دڠن ڤركاتان.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -22,7 +22,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ل" />
       </div>
       <p className="text-sm text-gray-500" >
-       Huruf 'س' di dalam perkataan dan di posisi yang betul.
+       حروف "س" د دالم ڤركاتان دان د ڤوسيسي يڠ بتول.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -30,10 +30,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="و" />
         <Cell value="ل" status="present" />
         <Cell value="و" />
-        <Cell value="ل" />
+        <Cell value="ل" status="present" />
       </div>
       <p className="text-sm text-gray-500">
-        Huruf 'ل' di dalam perkataan tapi di posisi yang salah.
+        حروف "ل" د دالم ڤركاتان دان د ڤوسيسي يڠ بتول.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -44,7 +44,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ل" />
       </div>
       <p className="text-sm text-gray-500">
-        Huruf 'و' tiada di dalam perkataan.
+        حروف "و" د دالم ڤركاتان دان د ڤوسيسي يڠ بتول.
       </p>
     </BaseModal>
   )
