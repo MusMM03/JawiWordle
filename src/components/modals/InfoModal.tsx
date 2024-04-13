@@ -8,7 +8,7 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="Cara untuk bermain" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Cara untuk bermain/چارا اونتوق برماءين" isOpen={isOpen} handleClose={handleClose}>
      
       <p className="text-sm text-gray-500">
         منك ڤركاتان دالم 6 ڤرچوبأن. سلڤس ستياڤ تكاان، ورنا جوبين اكن بروبه اونتوق منونجوقكن كتڤتن تكاان اندا دڠن ڤركاتان.
